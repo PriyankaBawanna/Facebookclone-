@@ -1,0 +1,42 @@
+.homePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+
+  position: relative;
+}
+.left {
+  width: 25%;
+
+  display: block;
+}
+.right {
+  width: 25%;
+
+  display: block;
+}
+.center {
+  width: 50%;
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .left {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .center {
+    display: block;
+    width: 100%;
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 930px) {
+  .left {
+    display: none;
+  }
+}

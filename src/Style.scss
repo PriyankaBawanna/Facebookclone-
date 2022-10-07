@@ -1,0 +1,12 @@
+@import "./HeaderComp/header";
+@import "./HomePage/homePage";
+@import "./HomePage/LeftSideBar/leftSidebar";
+@import "./HomePage/CenterPage/centerPage";
+.displayPage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.one {
+  height: 5rem;
+}

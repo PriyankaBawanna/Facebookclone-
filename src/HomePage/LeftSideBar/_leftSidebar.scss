@@ -1,0 +1,12 @@
+.leftSidebar {
+  position: fixed;
+  border: 1px solid black;
+  width: 24%;
+  height: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .leftSidebar {
+    display: none;
+  }
+}

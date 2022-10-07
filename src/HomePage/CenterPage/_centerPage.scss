@@ -1,0 +1,16 @@
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+}
+.storyItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+
+  margin: 5rem;
+}
+.img {
+  width: 90%;
+  height: 20rem;
+}
