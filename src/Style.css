@@ -102,13 +102,90 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: 30rem;
+  height: auto;
+  border: 1px solid black;
   margin: 5rem;
 }
 
 .img {
-  width: 90%;
+  width: 100%;
   height: 20rem;
+}
+
+.userName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  height: 3rem;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 7rem;
+}
+
+.userProfileLittleShow {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.description {
+  padding: 1rem;
+  border-bottom: 1px solid;
+}
+
+.likeAndComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.likeDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 4rem;
+  margin-top: 1rem;
+}
+
+.likeCount {
+  border-bottom: 1px solid rgba(197, 192, 192, 0.865);
+  padding: 0.3rem;
+}
+
+.likeButton {
+  padding: 0.3rem;
 }
 
 .displayPage {

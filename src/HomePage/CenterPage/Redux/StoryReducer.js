@@ -1,5 +1,5 @@
 import { SET_STORY_LIST } from "../../../Constant";
-export const storyOperation = (data = [], action) => {
+export const storyList = (data = [], action) => {
   console.log(" story reducer call", action);
   switch (action.type) {
     case SET_STORY_LIST:

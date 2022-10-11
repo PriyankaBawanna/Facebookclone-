@@ -1,9 +1,4 @@
-import {
-  LIKE_STORY,
-  UNLIKE_STORY,
-  STORY_LIST,
-  SET_STORY_LIST,
-} from "../../../Constant";
+import { LIKE_STORY, UNLIKE_STORY } from "../../../Constant";
 
 export const Like = (data) => {
   console.log(" action Like Key ", data);
